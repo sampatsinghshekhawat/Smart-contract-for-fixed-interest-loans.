@@ -35,6 +35,7 @@ The vision of this project is to provide a basic yet effective framework for man
 0xe1b26baacf0587c11384e16e56e8dc5063524fc3
 
 ![image](https://github.com/user-attachments/assets/549fe193-ba28-4e49-a024-dc79c022df95)
+Frontend
 ![image](https://github.com/user-attachments/assets/5f5708d8-75f8-4b0d-a61c-756c234301db)
 
 
