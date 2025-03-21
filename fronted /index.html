@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Interest Loan Contract</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Fixed Interest Loan Contract</h1>
+        </header>
+        <main>
+            <section id="loan-details">
+                <h2>Loan Details</h2>
+                <p><strong>Lender Address:</strong> <span id="lender-address"></span></p>
+                <p><strong>Borrower Address:</strong> <span id="borrower-address"></span></p>
+                <p><strong>Loan Amount:</strong> <span id="loan-amount"></span> ETH</p>
+                <p><strong>Interest Rate:</strong> <span id="interest-rate"></span> %</p>
+                <p><strong>Total Repayment Amount:</strong> <span id="repayment-amount"></span> ETH</p>
+            </section>
+
+            <section id="repayment">
+                <h2>Repay Loan</h2>
+                <p>Amount to repay: <span id="repayment-amount-display"></span> ETH</p>
+                <input type="number" id="repayment-amount-input" placeholder="Enter repayment amount in ETH" />
+                <button id="repay-button">Repay Loan</button>
+                <p id="status-message"></p>
+            </section>
+        </main>
+        <footer>
+            <p>Made with 💙 by YourTeam</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.6/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
